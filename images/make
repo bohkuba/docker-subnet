@@ -1,0 +1,5 @@
+#!/bin/bash
+image_dir="$(dirname $(realpath $0))"
+
+docker build $image_dir/jenkins -t bohkuba/alpine-jenkins
+docker build $image_dir/worker -t bohkuba/alpine-worker

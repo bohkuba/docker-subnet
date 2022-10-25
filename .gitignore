@@ -1,0 +1,8 @@
+*.env
+**/ssh/**/*
+!**/ssh/config
+!**/ssh/README.md
+!**/ssh/multiplex/
+!**/ssh/multiplex/**/*
+**/keychain/**/*
+!**/keychain/README.md
