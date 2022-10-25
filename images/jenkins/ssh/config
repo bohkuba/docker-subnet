@@ -1,0 +1,8 @@
+PasswordAuthentication no
+KbdInteractiveAuthentication no
+
+Host *
+  ServerAliveInterval 120
+  ControlPath ~/.ssh/multiplex/%r@%h:%p
+  ControlMaster auto
+  ControlPersist 1
