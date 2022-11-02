@@ -1,4 +1,4 @@
 #!/bin/bash
 image_dir="$(dirname $(realpath $0))"
 
-sh $image_dir/ubuntu/make
+docker build $image_dir -t bohkuba/ubuntu:22.10
