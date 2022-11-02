@@ -3,5 +3,6 @@ services:
     hostname: ubuntu
     container_name: ubuntu
     image: bohkuba/ubuntu:22.10
-    # volumes:
+    volumes:
+      - ./shared:/home/shared
     #   - /var/run/docker.sock:/var/run/docker.sock
